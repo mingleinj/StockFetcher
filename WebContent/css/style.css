@@ -1,0 +1,299 @@
+/* CSS Document */
+
+/******* browser standardization *******/
+* { margin: 0; padding: 0; }
+
+body { 
+	-x-system-font:none;
+	background: #627783 url(../images/bg.jpg) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #252e2f; 
+	text-align: center;
+	height:100.1%;
+ }
+ 
+a{
+	outline:none;
+}
+.fl{ float: left; }
+.fr{ float: right; }
+.clear { clear:both; }
+
+/******* mainwraper *******/
+#wrap {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/******* header *******/
+#header { 
+	text-align: right; 
+	}
+	
+#header #logo {
+	float: left;
+}
+
+/******* top navigation *******/
+ul#nav{
+	background: url(../images/nav_bg2.gif) no-repeat;
+	height: 29px;
+	padding: 11px 20px 7px 20px;
+	_overflow: hidden;
+}
+
+ul#nav li {
+	list-style: none;
+	display: block;
+	padding-top: 3px;
+	float: left;
+	_padding-top: 0;
+}
+ul#nav li.last a { background: none; }
+
+ul#nav li.selected {
+	background: url(../images/nav_selectedrightbg.gif) right top no-repeat;
+	margin: -12px -14px 0 -14px;
+}
+
+ul#nav li.first.selected {
+	margin: -12px -14px 0 2px;
+}
+
+ul#nav li.selected a {
+	color: #343e45;
+	font-size: 100%;
+	padding: 14px 25px 5px 20px;
+	background: url(../images/nav_selectedleft.gif) left -2px no-repeat;
+	_background: url(../images/nav_selectedleft.gif) left -3px no-repeat;
+	_line-height: 51px;
+	_padding: 14px 25px 10px 20px;
+}
+
+ul#nav li a {
+	background: url(../images/division.gif) no-repeat right bottom;
+	font-weight:bold;
+	font-size: 90%;
+	color: #999999;
+	text-decoration: none;
+	display: block;
+	height: 19px;
+	padding: 5px 25px 0 25px;
+	
+	_line-height: 29px;
+	_display: inline;
+}
+ul#nav li a:hover {
+	color: #777;
+}
+
+/******* body part *******/
+#pageBody {
+	text-align: left;
+	background:url(../images/fusioncharts_retail_dashboard_bodybg.png) center center repeat-y;
+	padding: 0 9px;
+	padding-bottom:5px;
+	_width: 936px;
+}
+
+/******* body part (top left) *******/
+#_____bodydivwidth{
+	width:942px;
+	margin:0 auto;
+}
+
+.map_small_menuwidth{
+	width:530px;
+	margin:0 auto;
+}
+
+
+.maptxtbg{
+	background-image:url(../images/map_bg.jpg);
+	background-repeat:repeat-x;	
+	height:28px;
+	text-align:center;
+	padding-top:6px;
+	
+	
+	
+}
+
+/*.maptxt{
+	width:422px;
+	margin:0 auto;
+	padding-top:8px;
+	text-align:center;
+}
+*/
+
+
+/******* body part (left navigation ) *******/
+
+#smallnav{
+	width:512px;
+}
+
+#smallnav ul{
+	padding:0px;
+	margin:0px;
+}
+
+#smallnav li{
+	display:inline;
+	
+}
+
+#smallnav li.firstimg{
+	background-image:url(../images/fusionchart_small_icon1.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	padding-bottom:2px;
+	
+}
+
+#smallnav li.secondimg{
+	background-image:url(../images/fusionchart_small_icon2.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	padding-bottom:2px;
+	
+}
+
+#smallnav li.thirdimg{
+	background-image:url(../images/fusionchart_small_icon3.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	padding-bottom:2px;
+	
+}
+
+#smallnav li.fourthimg{
+	background-image:url(../images/fusionchart_small_icon4.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	padding-bottom:2px;
+	
+}
+
+#smallnav li.fifthimg{
+	background-image:url(../images/fusionchart_small_icon5.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	padding-bottom:2px;
+	
+}
+
+#smallnav li a:link, a:active, a:visited{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	text-decoration:none;
+}
+
+#smallnav li a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666666;
+	text-decoration:none;
+	padding-right:5px;
+}
+
+/******* body part (top right) *******/
+.rightbox_top{
+	background-image:url(../images/fusionchart_rightsmallbox_top.gif);
+	background-repeat:no-repeat;
+	height:20px;
+}
+
+.rightbox_body{
+	background-image:url(../images/fusionchart_rightsmallbox_body.gif);
+	background-repeat:no-repeat;
+	height:182px;
+}
+
+.rightbox_body2{
+	background-image:url(../images/fusionchart_rightsmallbox_body2.gif);
+	background-repeat:no-repeat;
+	height:320px;
+}
+
+.smallheadertxt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#2f373d;
+}
+
+.smallheader{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#67727c;
+	line-height:30px;
+}
+
+/******* body part (bottom) *******/
+.chart_top{
+	background-image:url(../images/chart_top.gif);
+	background-repeat:no-repeat;
+	height:20px;
+}
+
+.chart_body{
+	background-image:url(../images/chart_body.gif);
+	background-repeat:no-repeat;
+	height:304px;
+}
+
+/******* footer *******/
+#foot {
+	font-size:90%;
+	color: #9fabb3;
+	margin-bottom:40px;
+	background:url(../images/fusioncharts_retail_dashboard_bodybottom.gif) center top no-repeat;
+	padding-top: 20px;
+	line-height: 120%;
+}
+
+
+#foot .bold{
+	color:#c8d7e1;
+	}
+
+/******* footer Links *******/
+            <!--
+            A:link {text-decoration:none; color:#000000; font-weight:bold;}
+            A:visited {text-decoration:none; color:#000000; font-weight:bold; font-size:10.5px;}
+            A:active {text-decoration: none; color:#000000; font-weight:bold;}
+            A:hover {text-decoration: underline; color:#000000; font-weight:bold;}
+            -->
+
+	
+/******* browser standardization *******/
+
+.backicon_div{
+	width:475px;
+	margin:0 auto;
+	}
+
+.lightblueborder{
+	border-left:#e0eafc solid 1px;
+	border-right:#e0eafc solid 1px;
+}
+
+.lightblue{
+	background-color:#cfdefa;
+}
+
+#backImg {
+	cursor: pointer;
+}
+
+
+
